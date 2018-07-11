@@ -12,14 +12,22 @@ namespace Amadeus {
         public List<Edge> Edges { get; set; }
         public List<Planet> Planets { get; set; }
 
-        internal void Loop()
+        public List<string> Loop()
         {
-            WriteDebug();
-            for (int i = 0; i < 5; i++)
+            var ret = new List<string>();
+            //WriteDebug();
+            foreach (var p in Planets.Where(p => p.CanAssign == 1 && p.MyTolerance > p.MyUnits))
             {
-                Console.WriteLine("0");
+                if (ret.Count() > 4)
+                    break;
+                ret.Add(p.ID.ToString());
             }
-            Console.WriteLine("NONE");
+
+            while (ret.Count < 5)
+                ret.Add("0");
+            ret.Add("NONE");
+
+            return ret;
         }
 
         private void WriteDebug()
@@ -70,6 +78,7 @@ namespace Amadeus {
                 {
                     inputs = Console.ReadLine().Split(' ');
                     game.Planets.Add( new Planet {
+                        ID = i,
                         MyUnits = int.Parse(inputs[0]),
                         MyTolerance = int.Parse(inputs[1]),
                         OtherUnits = int.Parse(inputs[2]),
@@ -78,7 +87,11 @@ namespace Amadeus {
                     });
                 }
 
-                game.Loop();
+                var ret = game.Loop();
+                foreach (var r in ret)
+                {
+                    Console.WriteLine(r);
+                }
             }
         }
     }

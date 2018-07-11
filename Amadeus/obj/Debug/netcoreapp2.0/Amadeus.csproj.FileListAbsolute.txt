@@ -20,3 +20,14 @@ C:\Projects\Amadeus\Amadeus\obj\Debug\netcoreapp2.0\Amadeus.AssemblyInfoInputs.c
 C:\Projects\Amadeus\Amadeus\obj\Debug\netcoreapp2.0\Amadeus.AssemblyInfo.cs
 C:\Projects\Amadeus\Amadeus\obj\Debug\netcoreapp2.0\Amadeus.dll
 C:\Projects\Amadeus\Amadeus\obj\Debug\netcoreapp2.0\Amadeus.pdb
+C:\Projects\AmadeusChallenge\Amadeus\bin\Debug\netcoreapp2.0\Amadeus.deps.json
+C:\Projects\AmadeusChallenge\Amadeus\bin\Debug\netcoreapp2.0\Amadeus.runtimeconfig.json
+C:\Projects\AmadeusChallenge\Amadeus\bin\Debug\netcoreapp2.0\Amadeus.runtimeconfig.dev.json
+C:\Projects\AmadeusChallenge\Amadeus\bin\Debug\netcoreapp2.0\Amadeus.dll
+C:\Projects\AmadeusChallenge\Amadeus\bin\Debug\netcoreapp2.0\Amadeus.pdb
+C:\Projects\AmadeusChallenge\Amadeus\obj\Debug\netcoreapp2.0\Amadeus.csprojAssemblyReference.cache
+C:\Projects\AmadeusChallenge\Amadeus\obj\Debug\netcoreapp2.0\Amadeus.csproj.CoreCompileInputs.cache
+C:\Projects\AmadeusChallenge\Amadeus\obj\Debug\netcoreapp2.0\Amadeus.AssemblyInfoInputs.cache
+C:\Projects\AmadeusChallenge\Amadeus\obj\Debug\netcoreapp2.0\Amadeus.AssemblyInfo.cs
+C:\Projects\AmadeusChallenge\Amadeus\obj\Debug\netcoreapp2.0\Amadeus.dll
+C:\Projects\AmadeusChallenge\Amadeus\obj\Debug\netcoreapp2.0\Amadeus.pdb

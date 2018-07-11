@@ -5713,23 +5713,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nicol\\.nuget\\packages\\": {},
+    "C:\\Users\\nicolas.stophe\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Amadeus\\Amadeus.Tests\\Amadeus.Tests.csproj",
+      "projectUniqueName": "C:\\Projects\\AmadeusChallenge\\Amadeus.Tests\\Amadeus.Tests.csproj",
       "projectName": "Amadeus.Tests",
-      "projectPath": "C:\\Projects\\Amadeus\\Amadeus.Tests\\Amadeus.Tests.csproj",
-      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Amadeus\\Amadeus.Tests\\obj\\",
+      "projectPath": "C:\\Projects\\AmadeusChallenge\\Amadeus.Tests\\Amadeus.Tests.csproj",
+      "packagesPath": "C:\\Users\\nicolas.stophe\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\AmadeusChallenge\\Amadeus.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nicolas.stophe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5742,8 +5742,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Projects\\Amadeus\\Amadeus\\Amadeus.csproj": {
-              "projectPath": "C:\\Projects\\Amadeus\\Amadeus\\Amadeus.csproj"
+            "C:\\Projects\\AmadeusChallenge\\Amadeus\\Amadeus.csproj": {
+              "projectPath": "C:\\Projects\\AmadeusChallenge\\Amadeus\\Amadeus.csproj"
             }
           }
         }
