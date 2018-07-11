@@ -46,6 +46,36 @@ namespace Amadeus.Tests
             Assert.AreEqual(retour[5], "NONE");
         }
 
+        [TestMethod]
+        public void TestCombat()
+        {
+            Init("Test3.txt");
+            var retour = game.Loop();
+            int i = 0;
+            Assert.AreEqual(6, retour.Count);
+            Assert.IsTrue( int.TryParse(retour[0],out i));
+            Assert.IsTrue( int.TryParse(retour[1],out i));
+            Assert.IsTrue( int.TryParse(retour[2],out i));
+            Assert.IsTrue( int.TryParse(retour[3],out i));
+            Assert.IsTrue( int.TryParse(retour[4],out i));
+            Assert.AreEqual(retour[5], "NONE");
+        }
+
+        [TestMethod]
+        public void TestErreur()
+        {
+            Init("Test4.txt");
+            var retour = game.Loop();
+            int i = 0;
+            Assert.AreEqual(6, retour.Count);
+            Assert.IsTrue( int.TryParse(retour[0],out i));
+            Assert.IsTrue( int.TryParse(retour[1],out i));
+            Assert.IsTrue( int.TryParse(retour[2],out i));
+            Assert.IsTrue( int.TryParse(retour[3],out i));
+            Assert.IsTrue( int.TryParse(retour[4],out i));
+            Assert.AreEqual(retour[5], "NONE");
+        }
+
         private void Init(string fileName)
         {
             int counter = 0;  

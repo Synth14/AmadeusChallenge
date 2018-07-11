@@ -15,12 +15,23 @@ namespace Amadeus {
         public List<string> Loop()
         {
             var ret = new List<string>();
+            var nbPlanetDispoToGo = Planets.Count(p => p.CanAssign == 1 && p.MyUnits == 0);
+            var nbByPlanet = 0;
+            if(nbPlanetDispoToGo == 0) {
+                nbPlanetDispoToGo = Planets.Count(p => p.CanAssign == 1 && p.MyUnits < p.MyTolerance);
+            }
+            nbByPlanet = 5 / nbPlanetDispoToGo;
+            if (nbByPlanet == 0)
+                nbByPlanet = 1;
             //WriteDebug();
-            foreach (var p in Planets.Where(p => p.CanAssign == 1 && p.MyTolerance > p.MyUnits))
+            foreach (var p in Planets.Where(p => p.CanAssign == 1 && p.MyUnits == 0))
             {
                 if (ret.Count() > 4)
                     break;
-                ret.Add(p.ID.ToString());
+                for (int i = 0; i < nbByPlanet; i++)
+                {
+                    ret.Add(p.ID.ToString());   
+                }
             }
 
             while (ret.Count < 5)
